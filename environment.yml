@@ -1,0 +1,20 @@
+name: ccSNN
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - conda
+  - ipykernel
+  - pytorch
+  - torchaudio
+  - torchvision
+  - conda-forge::matplotlib
+  - conda-forge::tonic
+  - conda-forge::pytorch-lightning
+  - anaconda::seaborn
+  - conda-forge::snntorch
+  - conda-forge::quantities
+  - conda-forge::wandb
+  - conda-forge::scikit-posthocs
+prefix: /ext3/miniforge3

@@ -1,0 +1,2 @@
+from algorithm.model.activation.SaturatedReLU import SaturatedReLU
+from algorithm.model.activation.SurrGradSpike import SurrGradSpike
